@@ -1,0 +1,47 @@
+.card-meta {
+    font-size: 0.75rem;
+    color: #94a3b8;
+}
+
+.alert {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    padding: 1rem 1.25rem;
+    border-radius: 12px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    background: white;
+    border: 1px solid #fecaca;
+    color: #dc2626;
+}
+
+@media (max-width: 768px) {
+    .top-bar {
+        position: relative;
+        top: 0;
+        right: 0;
+        justify-content: flex-end;
+        margin-bottom: 2rem;
+    }
+
+    .user-email {
+        display: none;
+    }
+
+    .header-logo-title {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .header-logo {
+        height: 40px;
+    }
+
+    .page-title {
+        font-size: 1.5rem;
+    }
+
+    .sistemas-grid {
+        grid-template-columns: 1fr;
+    }
+}
