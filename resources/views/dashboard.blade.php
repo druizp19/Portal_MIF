@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Portal Medifarma</title>
+    <title>Dashboard - Portal Marketing</title>
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
 </head>
 <body>
@@ -13,7 +13,7 @@
             <div class="header-content">
                 <div class="header-left">
                     <img src="{{ asset('images/logo-medifarma.png') }}" alt="Medifarma" class="header-logo">
-                    <span class="header-title">PORTAL MEDIFARMA</span>
+                    <span class="header-title">PORTAL MARKETING</span>
                 </div>
                 <div class="header-right">
                     <div class="user-info">

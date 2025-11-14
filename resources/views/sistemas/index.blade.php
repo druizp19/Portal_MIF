@@ -8,9 +8,23 @@
     <link rel="stylesheet" href="{{ asset('css/sistemas-extra.css') }}">
 </head>
 <body>
+    <!-- Splash Screen Oracle -->
+    <div id="oracle-splash" class="oracle-splash">
+        <video autoplay muted loop playsinline class="oracle-video-bg">
+            <source src="{{ asset('210884.mp4') }}" type="video/mp4">
+        </video>
+        <div class="oracle-overlay"></div>
+        <div class="oracle-content">
+            <h1 class="oracle-text">ORACULO</h1>
+            <div class="oracle-loader">
+                <div class="loader-bar"></div>
+            </div>
+        </div>
+    </div>
+
     <canvas id="particles-canvas"></canvas>
     
-    <div class="sistemas-container">
+    <div class="sistemas-container" id="main-content">
         <!-- Top Bar con Usuario y Logout -->
         <div class="top-bar">
             <div class="user-badge">
@@ -38,8 +52,8 @@
         <main class="main-content">
             <div class="page-header">
                 <div class="header-logo-title">
+                    <h1 class="page-title">Portal Marketing</h1>
                     <img src="{{ asset('images/logo-medifarma.png') }}" alt="Medifarma" class="header-logo">
-                    <h1 class="page-title">Portal Medifarma</h1>
                 </div>
             </div>
 
@@ -80,5 +94,6 @@
     </div>
 
     <script src="{{ asset('js/particles.js') }}"></script>
+    <script src="{{ asset('js/splash.js') }}"></script>
 </body>
 </html>

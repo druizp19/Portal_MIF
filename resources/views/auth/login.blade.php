@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión - Portal Medifarma</title>
+    <title>Iniciar Sesión - Portal Marketing</title>
     <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 </head>
 <body>
@@ -13,7 +13,7 @@
             <div class="brand-logo">
                 <img src="{{ asset('images/logo-medifarma.png') }}" alt="Medifarma">
             </div>
-            <h1 class="brand-title">Portal Medifarma</h1>
+            <h1 class="brand-title">Portal Marketing</h1>
             <p class="brand-subtitle">Sistema de Gestión</p>
         </div>
     </div>
